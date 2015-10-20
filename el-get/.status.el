@@ -1,4 +1,6 @@
-((anything-gtags status "installed" recipe
+((android-mode status "installed" recipe
+               (:name android-mode :website "https://github.com/remvee/android-mode" :description "Emacs minor mode for Android application development" :type github :pkgname "remvee/android-mode"))
+ (anything-gtags status "installed" recipe
                  (:name anything-gtags :auto-generated t :type emacswiki :description "GNU GLOBAL anything.el interface" :website "https://raw.github.com/emacsmirror/emacswiki.org/master/anything-gtags.el"))
  (auto-complete status "installed" recipe
                 (:name auto-complete :website "https://github.com/auto-complete/auto-complete" :description "The most intelligent auto-completion extension." :type github :pkgname "auto-complete/auto-complete" :depends
@@ -65,6 +67,8 @@
                (:name company-mode :website "http://company-mode.github.io/" :description "Modular in-buffer completion framework for Emacs" :type github :pkgname "company-mode/company-mode"))
  (cssh status "installed" recipe
        (:name cssh :website "https://github.com/dimitri/cssh" :description "ClusterSSH meets Emacs " :type github :pkgname "dimitri/cssh" :features cssh))
+ (ctags status "installed" recipe
+        (:name ctags :type hg :url "https://bitbucket.org/semente/ctags.el" :description "Exuberant Ctags utilities for Emacs" :website "https://bitbucket.org/semente/ctags.el"))
  (dash status "installed" recipe
        (:name dash :description "A modern list api for Emacs. No 'cl required." :type github :pkgname "magnars/dash.el"))
  (el-get status "installed" recipe
@@ -131,6 +135,8 @@
 (helm)))
 (json status "installed" recipe
 (:name json :description "JavaScript Object Notation parser / generator" :type http :builtin "23" :url "http://edward.oconnor.cx/elisp/json.el"))
+(mercurial status "installed" recipe
+(:name mercurial :description "Mercurial mode from mercurial" :website "http://mercurial.selenic.com/" :type http :url "http://hg.intevation.org/mercurial/raw-file/tip/contrib/mercurial.el" :features mercurial))
 (popup status "installed" recipe
 (:name popup :website "https://github.com/auto-complete/popup-el" :description "Visual Popup Interface Library for Emacs" :type github :submodule nil :depends cl-lib :pkgname "auto-complete/popup-el"))
 (smartparens status "installed" recipe

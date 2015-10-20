@@ -3,6 +3,17 @@
 ;;; Code:
 
 
+;;;### (autoloads nil "android-mode/android-mode" "android-mode/android-mode.el"
+;;;;;;  (21995 45333 0 0))
+;;; Generated autoloads from android-mode/android-mode.el
+
+(autoload 'android-mode "android-mode/android-mode" "\
+Android application development minor mode.
+
+\(fn &optional ARG)" t nil)
+
+;;;***
+
 ;;;### (autoloads nil "auto-complete/auto-complete" "auto-complete/auto-complete.el"
 ;;;;;;  (21949 55985 0 0))
 ;;; Generated autoloads from auto-complete/auto-complete.el
@@ -1435,7 +1446,7 @@ See `yas-minor-mode' for more information on Yas minor mode.
 ;;;;;;  "cedet/cedet-update-version.el" "company-mode/company-capf.el"
 ;;;;;;  "company-mode/company-clang.el" "company-mode/company-cmake.el"
 ;;;;;;  "company-mode/company-eclim.el" "company-mode/company-template.el"
-;;;;;;  "company-mode/company-tests.el" "dash/dash-functional.el"
+;;;;;;  "company-mode/company-tests.el" "ctags/ctags.el" "dash/dash-functional.el"
 ;;;;;;  "dash/dash.el" "el-get/el-get-autoloading.el" "el-get/el-get-build.el"
 ;;;;;;  "el-get/el-get-byte-compile.el" "el-get/el-get-core.el" "el-get/el-get-custom.el"
 ;;;;;;  "el-get/el-get-dependencies.el" "el-get/el-get-install.el"
@@ -1454,14 +1465,14 @@ See `yas-minor-mode' for more information on Yas minor mode.
 ;;;;;;  "expand-region/sml-mode-expansions.el" "expand-region/subword-mode-expansions.el"
 ;;;;;;  "expand-region/text-mode-expansions.el" "expand-region/the-org-mode-expansions.el"
 ;;;;;;  "expand-region/web-mode-expansions.el" "function-args/semantic-directory.el"
-;;;;;;  "fuzzy/fuzzy.el" "guess-offset/guess-offset.el" "popup/popup.el"
-;;;;;;  "smartparens/smartparens-config.el" "smartparens/smartparens-haskell.el"
+;;;;;;  "fuzzy/fuzzy.el" "guess-offset/guess-offset.el" "mercurial/mercurial.el"
+;;;;;;  "popup/popup.el" "smartparens/smartparens-config.el" "smartparens/smartparens-haskell.el"
 ;;;;;;  "smartparens/smartparens-html.el" "smartparens/smartparens-latex.el"
 ;;;;;;  "smartparens/smartparens-lua.el" "smartparens/smartparens-pkg.el"
 ;;;;;;  "smartparens/smartparens-python.el" "smartparens/smartparens-ruby.el"
 ;;;;;;  "swiper/colir.el" "swiper/ivy-hydra.el" "swiper/ivy-test.el"
 ;;;;;;  "window-numbering/tests.el" "yasnippet/yasnippet-debug.el"
-;;;;;;  "yasnippet/yasnippet-tests.el") (21975 56836 501631 0))
+;;;;;;  "yasnippet/yasnippet-tests.el") (22005 7909 390011 0))
 
 ;;;***
 

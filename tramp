@@ -1,8 +1,8 @@
-;; -*- emacs-lisp -*- <15/08/05 19:37:45 /Users/linsh/.emacs.d/tramp>
+;; -*- emacs-lisp -*- <15/09/12 20:36:45 /Users/linsh/.emacs.d/tramp>
 ;; Tramp connection history.  Don't change this file.
 ;; You can delete it, forcing Tramp to reapply the checks.
 
-((["ssh" "linsh" "10.240.146.143#24" nil nil]
+((["ssh" "linsh" "10.240.148.56#25" nil nil]
   nil)
- (["ssh" "linsh" "10.240.146.143" nil nil]
+ (["ssh" "linsh" "10.240.148.56" nil nil]
   nil))
